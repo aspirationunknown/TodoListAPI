@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon server.js"
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git"
   },
   "author": "Charlie Parsons",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "nodemon": "^1.17.5"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
   }
 }
